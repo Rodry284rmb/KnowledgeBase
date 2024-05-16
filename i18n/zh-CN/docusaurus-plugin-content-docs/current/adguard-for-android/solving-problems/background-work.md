@@ -1,19 +1,19 @@
 ---
-title: How to protect AdGuard from being disabled by the system
+title: 如何让 AdGuard 保持后台运行
 sidebar_position: 9
 ---
 
 :::info
 
-This article is about AdGuard for Android, a multifunctional ad blocker that protects your device at the system level. To see how it works, [download the AdGuard app](https://agrd.io/download-kb-adblock)
+本文所述 AdGuard Android 版是在系统级上保护设备的多功能的广告拦截器。 要了解工作原理， 请[下载 AdGuard 应用程序](https://agrd.io/download-kb-adblock)。
 
 :::
 
-In some cases, apps won't stay in the background (“alive” or in a sleep mode) due to the Android OS optimization function, or the so-called “battery save mode” — this function can kill background apps. It may be inconvenient to relaunch them each time they are getting closed. To avoid the background app termination, you need to follow the steps we described separately for each manufacturer (version) of Android OS. Note that instructions for different manufacturers are mostly very similar.
+在某些情况下，由于 Android 系统优化功能或所谓的「省电模式」，应用程序无法在后台运行（活动或睡眠模式），此功能可终止后台应用。 每次关闭后，重新启动它们可能会很不方便。 要避免后台应用终止，需要按照我们针对每个 Android 操作系统制造商（版本）分别描述的步骤进行操作。 请注意，不同制造商的说明大多非常相似。
 
 ## Asus
 
-Information on Asus devices is still far from being exhaustive so there may be more issues than listed here. We're going to update this part of the article when we know more.
+关于 Asus 设备的信息仍远未详尽，所以存在的问题可能比此处列出的要多。 当我们了解更多信息时，我们将更新文章内容。
 
 The main source of potential problems with background work on Asus devices is associated with the optimization app called Power Master. It is pre-installed and has pretty aggressive default settings, e.g. to block apps from starting and to kill background tasks when your screen turns off. To make sure apps background processing works, set up the following:
 
